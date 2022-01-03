@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CGPA</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h2 id="h2">CGPA CALCULATOR</h2>
+	<table border="1" align="center" bgcolor="cyan">
+		<tr>
+			<td><input type="button" value ="AC" onclick="clr()"></td>
+			<td colspan="3"><input type="text" id="text"></td>
+			<td><input type="button" value="CREDIT" onclick="solve()"></td>
+			<td><input type="button" value="TOTAL.CREDIT"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="+" onclick="dis('+')"></td>
+			<td><input type="button" value="90-100" onclick="dis('10')"></td>
+			<td><input type="button" value="80-89" onclick="dis('9')"></td>
+			<td><input type="button" value="70-79" onclick="dis('8')"></td>
+			<td><input type="button" value="4" onclick="dis('4')"></td>
+			<td><input type="button" value="0" onclick="dis('0')"> <input type="button" value="1" onclick="dis('1')"></</td>
+		</tr>
+		<tr>
+			<td><input type="button" value="*" onclick="dis('*')"></td>
+			<td><input type="button" value="60-69" onclick="dis('7')"></td>
+			<td><input type="button" value="50-59" onclick="dis('6')"></td>
+			<td><input type="button" value="40-49" onclick="dis('5')"></td>
+			<td><input type="button" value="3" onclick="dis('3')"></td>
+			<td><input type="button" value="2" onclick="dis('2')"> <input type="button" value="3" onclick="dis('3')"></</td>
+		</tr>
+		<tr>
+			<td><input type="button" value="/" onclick="dis('/')"></td>
+			<td><input type="button" value="30-39" onclick="dis('4')"></td>
+			<td><input type="button" value="20-29" onclick="dis('3')"></td>
+			<td><input type="button" value="10-19" onclick="dis('2')"></td>
+			<td><input type="button" value="2" onclick="dis('2')"></td>
+			<td><input type="button" value="4" onclick="dis('4')"> <input type="button" value="5" onclick="dis('5')"></</td>
+		</tr>
+
+		<tr>
+			<td><input type="button" value="=" onclick="solve()"></td>
+			<td><input type="button" value="none"></td>
+			<td><input type="button" value="none"></td>
+			<td><input type="button" value="none"></td>
+			<td><input type="button" value="1.5" onclick="dis('1.5')"></td>
+			<td><input type="button" value="6" onclick="dis('6')"> <input type="button" value="7" onclick="dis('7')"></</td>
+		</tr>
+
+
+		<tr>
+			<td><input type="button" value="." onclick="dis('.')"></td>
+			<td><input type="button" value="(" onclick="dis('(')"></td>
+			<td><input type="button" value=")" onclick="dis(')')"></td>
+			<td><input type="button" value="none"></td>
+			<td><input type="button" value="1" onclick="dis('1')"></td>
+			<td><input type="button" value="8" onclick="dis('8')"> <input type="button" value="9" onclick="dis('9')"></</td>
+		</tr>
+
+
+
+		
+	</table>
+
+
+	<div align="center">
+		<p>HII GUYS,</p>
+		<P>YOU CAN EASILY CALCULATE YOUR CGPA FROM THIS CALCULATOR:-</P>
+		<P> YOUR CGPA = <b>(marks_range * credit_of_the_subject + marks_range * credit_of_the_subject + marks_range * credit_of_the_subject + marks_range * credit_of_the_subject.....)/total_credit </b></P>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
